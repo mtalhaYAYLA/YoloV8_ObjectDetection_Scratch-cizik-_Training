@@ -1,0 +1,30 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache ve geçici dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset klasörü: alt klasörler dahil tüm resim ve etiket dosyalarını ignore et
+cizik_object_detection/**/*.jpg
+cizik_object_detection/**/*.jpeg
+cizik_object_detection/**/*.png
+cizik_object_detection/**/*.txt
+fercamcamsanayietiketsakarya.v7i.yolov8
+# Eğitim çıktı klasörü
+runs/
+
+# Ağır model ağırlıkları
+*.pt
+*.onnx
+
+# Eğitim videoları (isteğe bağlı)
+*.mp4
+
+# IDE ve sistem dosyaları
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
